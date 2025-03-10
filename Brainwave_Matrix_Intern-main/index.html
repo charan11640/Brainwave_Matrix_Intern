@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day Planner</title>
+  <link rel="stylesheet" href="style.css"> <!-- Linking CSS -->
+</head>
+<body>
+  <header>
+    <h1>Day Planner</h1>
+  </header>
+
+  <main>
+    <!-- Date Picker -->
+    <div class="date-picker-container">
+      <label for="planner-date">Select Date:</label>
+      <input type="date" id="planner-date">
+    </div>
+
+    <!-- Time Slots Table -->
+    <table id="planner-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Time slots from 12:00 AM to 11:00 PM -->
+        <tr>
+          <td>12:00 AM</td>
+          <td><input type="text" id="activity-12am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>1:00 AM</td>
+          <td><input type="text" id="activity-1am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>2:00 AM</td>
+          <td><input type="text" id="activity-2am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>3:00 AM</td>
+          <td><input type="text" id="activity-3am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>4:00 AM</td>
+          <td><input type="text" id="activity-4am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>5:00 AM</td>
+          <td><input type="text" id="activity-5am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>6:00 AM</td>
+          <td><input type="text" id="activity-6am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>7:00 AM</td>
+          <td><input type="text" id="activity-7am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>8:00 AM</td>
+          <td><input type="text" id="activity-8am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>9:00 AM</td>
+          <td><input type="text" id="activity-9am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td><input type="text" id="activity-10am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td><input type="text" id="activity-11am" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>12:00 PM</td>
+          <td><input type="text" id="activity-12pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td><input type="text" id="activity-1pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>2:00 PM</td>
+          <td><input type="text" id="activity-2pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td><input type="text" id="activity-3pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>4:00 PM</td>
+          <td><input type="text" id="activity-4pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td><input type="text" id="activity-5pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td><input type="text" id="activity-6pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>7:00 PM</td>
+          <td><input type="text" id="activity-7pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>8:00 PM</td>
+          <td><input type="text" id="activity-8pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>9:00 PM</td>
+          <td><input type="text" id="activity-9pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>10:00 PM</td>
+          <td><input type="text" id="activity-10pm" placeholder="Enter activity"></td>
+        </tr>
+        <tr>
+          <td>11:00 PM</td>
+          <td><input type="text" id="activity-11pm" placeholder="Enter activity"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Save Button -->
+    <button onclick="saveTasks()">Save Activities</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Day-Planner App</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- Linking JavaScript -->
+</body>
+</html>
+
+
